@@ -21,4 +21,10 @@ public class dropdownhandlers
 	 sct.selectByVisibleText(text);
  
 }
+ public static void deselect(WebElement element)
+ {
+	 Select sct = new Select(element);
+	 sct.deselectAll();
+ 
+}
 }
